@@ -2,6 +2,7 @@ $(document).ready(function() {
     console.log(users)
 })
 
+
 function fillTable(users) {
     for (i = 0; i <= users.length; i++) {
         var userRow = "<tr>" +
